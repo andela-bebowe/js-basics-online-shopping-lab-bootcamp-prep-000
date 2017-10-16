@@ -70,6 +70,7 @@ function removeFromCart(item) {
       debugger
       console.log('That item is not in your cart.');
     } else {
+      debugger
       cart = [...cart.slice(0, i), ...cart.slice(i+1)]
       return
     }
