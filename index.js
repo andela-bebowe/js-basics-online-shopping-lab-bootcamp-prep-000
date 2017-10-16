@@ -70,10 +70,8 @@ function removeFromCart(item) {
       cart = [...cart.slice(0, i), ...cart.slice(i+1)]
       return
     }
-    if (i == lastIndex){
-      console.log('That item is not in your cart.')
-    }
   }
+  console.log('That item is not in your cart.')
 }
 
 function placeOrder(cardNumber) {
